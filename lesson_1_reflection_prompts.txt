@@ -1,0 +1,67 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Bylo znacznie latwiej choc sa do tego lepsze narzedzia
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Mozesz latwo wrocic do poprzedniej wersji jesli cos popsules wiec
+    oszczedzasz sporo czasu przy eksperymentach
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Na plus - nie musi zajmowac tyle miejsca, na minus - cala reszta,
+    automatyczne backupy sa super. Na plus - wiesz dokladnie co zmieniles
+    w wersji ktora wlasnie zapisujesz (mozesz dodac opis itd), a automat nie
+    ma takiej mozliwosci
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Czesto zmiany sa dokonywane calosciowo na projekcie - kilka zmian w roznych
+    plikach ktore sa powiazane ze soba - daltego warto je razem zapisac
+
+How can you use the commands git log and git diff to view the history of files?
+
+    ?
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Zawsze mozesz wrocic do poprzedniej zapisanej dzialajacej wersji.
+    Latwiej jest wtedy eksperymentowac.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Do wszystkich moim programow w pytonie.
+
+How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+Mozesz wrocic do dowolnego punktu w historii Twojego projektu co umozliwia
+ewentualne cofniecie zmian, poszukanie "poprzedniejd zialajacej wersji " itd.
+
+
+git log pozwala na obejrzenie wszystkich commitow co pozwala na dowolne cofniecie
+sie w czasie lub wyszukanie roznic miedzy aktualna wersja a dowolna wersja z przeszlosci
+skladnia to po prostu git log
+
+Git diff nr id nr id - pozwala na sprawdzenie roznic w plikach, pokazuje na czerwono
+usuniete wiersze, na zielono dodane
+
+git clone "link do repozytorium" - pobranie kompletu plikow z cala historia
+
+Duzo latwiej skontrolowac kolejne zmiany, latwo sie cofnac do poprzednich wersji
+oraz znalezc roznice miedzy aktualna i wybrana z przeszlosci
+
+git init - odpala sledzenie zmian dla danego folderu (bez zerowego komita)
+
+git status  - sprawdza co jest sledzone a co nie i podpowiada komendę git add
+zeby dodac do sledzenia
+
+
+git init i git status - na poczatek
