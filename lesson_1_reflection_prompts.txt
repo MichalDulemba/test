@@ -65,3 +65,7 @@ zeby dodac do sledzenia
 
 
 git init i git status - na poczatek
+
+working area to pliki ktore wybrales do sledzenia przez GIT-a
+workint directory to miejsce gdzie aktualnie sie znajdujesz
+repository - to zbior wskazanych wczesniej plikow ktore "zakomitowales" 
