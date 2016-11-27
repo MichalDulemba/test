@@ -68,4 +68,17 @@ git init i git status - na poczatek
 
 working area to pliki ktore wybrales do sledzenia przez GIT-a
 workint directory to miejsce gdzie aktualnie sie znajdujesz
-repository - to zbior wskazanych wczesniej plikow ktore "zakomitowales" 
+repository - to zbior wskazanych wczesniej plikow ktore "zakomitowales"
+
+
+branching pomaga jesli chcemy przetestowac pewne zmiany ktore nie powinny wplywac na aktualna prace
+naszego programu, albo chcemy dodac cos eksperymentalnego lub stworzyc inna nowa
+wersje tego programu (np inny jezyk)
+
+diagram pozwala stwierdzic od ktorego commita pojawia sie dany branch, ile ma komittow i czy zostal
+polaczony z masterem, czy nalezy go dopiero zmerdzowac.
+
+
+polaczenie dwoch branczy powoduje zawarcie kodu z obu (jesli nie ma konfliktow)
+- dzieki temu dodatkowe opcje ktore byly rozwijane obok glownej dzialajacej
+wersji sa dolaczone do niej i mozemy porzucic boczny brancz

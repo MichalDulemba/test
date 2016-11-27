@@ -68,4 +68,13 @@ git init i git status - na poczatek
 
 working area to pliki ktore wybrales do sledzenia przez GIT-a
 workint directory to miejsce gdzie aktualnie sie znajdujesz
-repository - to zbior wskazanych wczesniej plikow ktore "zakomitowales" 
+repository - to zbior wskazanych wczesniej plikow ktore "zakomitowales"
+
+Kiedy masz juz wykonaną zmianę  - dajesz add i ta wersja pliku od razu jest w staging
+area, a w miedzyczasie mozesz pracowac dalej nad tym plikiem, po commit masz
+zapisana ta posrednia wersje
+
+
+przy recznym merdzowani rozwiazujesz konflity i dokladnie kontorlujesz jaka wersja
+funkcji itd bedzie w danym pliku, jesli konflikty nie wystepuja - automat moze polaczyc pliki
+samodzielnie
