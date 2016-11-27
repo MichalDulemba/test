@@ -6,3 +6,13 @@ ALWAYS
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Automatic changes would overwrite every change in local repository. It would not make any sense.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks - github copy of another repository
+Clone - local or github copy of another repository
+branch - local copy of repository with some changes
+
+Branch - when working locally
+Clone - when you need to download something to work on this locally
+Fork - when you want somebodys code on your github account
