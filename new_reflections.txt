@@ -16,3 +16,7 @@ branch - local copy of repository with some changes
 Branch - when working locally
 Clone - when you need to download something to work on this locally
 Fork - when you want somebodys code on your github account
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can check if your contributors changed anything and then merge your changes with theirs
